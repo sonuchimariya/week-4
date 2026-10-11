@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="slider.js" defer></script>
+</head>
+<body>
+
+    <main class="container">
+        <h1>Image Slider Library</h1>
+        <p class="intro">Explore beautiful places around the world.</p>
+
+        <section class="slider" aria-label="Image slider">
+
+            <div class="slider-viewport">
+                <div class="slider-track">
+
+                    <img src="./house.avif" alt="image 1" />
+                    <img src="./mt.avif" alt="image 2" />
+                    <img src="./rt.avif" alt="image 3" />
+                    <img src="./wt.avif" alt="image 4" />
+                    <img src="./sky.avif" alt="image 5" />
+                </div>
+            </div>
+
+            <button class="slider-btn prev"
+                    type="button"
+                    aria-label="Previous image">
+                &#10094;
+            </button>
+
+            <button class="slider-btn next"
+                    type="button"
+                    aria-label="Next image">
+                &#10095;
+            </button>
+
+            <div class="slider-dots"
+                 role="group"
+                 aria-label="Choose an image">
+            </div>
+
+        </section>
+
+        <p class="footer">
+            Responsive Image Slider using HTML, CSS and JavaScript
+        </p>
+    </main>
+
+</body>
+</html>
